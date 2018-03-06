@@ -1,0 +1,7 @@
+en:
+  site_settings:
+    thrive_groups_enabled: "Automatically assign groups by post"
+    thrive_groups_post_amount_run_every_minutes: "Automatic group assignment run every this many minutes"
+    thrive_groups_post_groups: "The list of groups to assign (separated by |)"
+    thrive_groups_required_post_counts: "The required number of posts to get assigned a group (separated by |)"
+    thrive_groups_required_read_time: "The required amount of time read get assigned a group (separated by |). Both this and the post count must be reached by user to get a group"

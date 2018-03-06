@@ -1,0 +1,17 @@
+plugins:
+  thrive_groups_enabled:
+    default: true
+    client: false
+  thrive_groups_post_amount_run_every_minutes:
+    default: 2
+    client: false
+  thrive_groups_post_groups:
+    default: "New|Basic|Member|Regular|Leader"
+    client: false
+  thrive_groups_required_post_counts:
+    default: "0|3|10|30|60"
+    client: false
+  thrive_groups_required_read_time:
+    default: "0|15|60|120|480"
+    client: false
+
