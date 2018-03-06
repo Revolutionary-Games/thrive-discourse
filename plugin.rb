@@ -3,6 +3,7 @@
 # about: discourse customizations for thrive community
 # version: 1.0
 # authors: Henri Hyyryläinen
+# url: https://github.com/Revolutionary-Games/thrive-discourse
 
 enabled_site_setting :thrive_groups_enabled
 
