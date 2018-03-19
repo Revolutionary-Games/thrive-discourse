@@ -2,8 +2,8 @@ plugins:
   thrive_groups_enabled:
     default: true
     client: false
-  thrive_groups_post_amount_run_every_minutes:
-    default: 2
+  thrive_groups_post_amount_full_verify_minutes:
+    default: 1430
     client: false
   thrive_groups_post_groups:
     default: "New|Basic|Member|Regular|Leader"
