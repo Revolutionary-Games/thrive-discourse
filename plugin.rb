@@ -13,6 +13,11 @@ module ThriveAssignGroupPlugin
   # user needs to be an instance of User class
   def self.verifyUserGroup(user)
 
+    # Skip system users
+    if user.id < 1
+      return
+    end
+
     Rails.logger.debug "Verifying user group for #{user.username} (#{user.id})"
 
     # There doesn't seem to be a better place to do this than here
